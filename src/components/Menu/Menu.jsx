@@ -1,17 +1,16 @@
-
-
 import React from 'react'
+import './Menu.css'
 
 const Menu = () => {
   return (
     <header>
 
-        <nav class="container-menu">
+        <nav className='container-menu'>
 
-            <section class="logo-marca logos">
-                {/* <img src="../RECURSOS/Menu-lgotipo-marca.png" alt="logo-codigo-c13"> */}
-            </section>
-            <section class="menu">
+            {/* <section class="logo-marca logos">
+                <img src="../assets/img/Menu-lgotipo-marca.png" alt="logo-codigo-c13"/>
+            </section> */}
+            <section className="menu">
 
                 <ul>
                     <li><a href="#" id="selected">Inicio</a></li>
@@ -22,11 +21,11 @@ const Menu = () => {
                 </ul>
 
             </section>
-            <section class="logo-perfil logos">
+            {/* <section class="logo-perfil logos">
                 <a href="../login/index.html">
-                    {/* <img src="../RECURSOS/Menu-logotipo-perfil.png" alt="logo-perfil"> */}
+                    <img src="../img/Menu-logotipo-perfil.png" alt="logo-perfil"/>
                 </a>
-            </section>
+            </section> */}
         </nav>
 
     </header>
