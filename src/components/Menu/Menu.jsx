@@ -1,5 +1,6 @@
 import React from 'react'
 import './Menu.css'
+import logo from '../../assets/img/Menu-lgotipo-marca.png'
 
 const Menu = () => {
   return (
@@ -7,9 +8,9 @@ const Menu = () => {
 
         <nav className='container-menu'>
 
-            {/* <section class="logo-marca logos">
-                <img src="../assets/img/Menu-lgotipo-marca.png" alt="logo-codigo-c13"/>
-            </section> */}
+            <section class="logo-marca logos">
+                <img src={logo} alt="logo-codigo-c13"/>
+            </section>
             <section className="menu">
 
                 <ul>
