@@ -3,7 +3,7 @@ import './Carreras.css'
 
 const Carreras = () => {
   return (
-    <main class="section-techniques">
+    <main class="section-techniques" id='carreras'>
 
         <section class="container-techniques">
             <h3 class="techniques-title">Desarrollo web</h3>

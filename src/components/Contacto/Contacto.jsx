@@ -3,7 +3,7 @@ import './Contacto.css'
 
 const Contacto = () => {
   return (
-    <footer class="section-contact">
+    <footer class="section-contact" id='contactos'>
       <section class="contact-net">
         <section class="contact-circle">
           <section class="contact-linker"></section>
