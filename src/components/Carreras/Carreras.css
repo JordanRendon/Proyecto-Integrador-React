@@ -1,0 +1,32 @@
+.section-techniques {
+    height: 100vh;
+    background-color: #272727;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  
+  .container-techniques {
+    height: 210px;
+    width: 706px;
+    box-shadow: 5px -5px 15px rgba(76, 76, 79, 0.7), -5px 5px 20px #000000;
+    border-radius: 26px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 0 0 70px;
+  }
+  
+  .techniques-title {
+    font-weight: 400;
+    font-size: 43px;
+    width: 261px;
+    height: 153px;
+  }
+  
+  .imagen {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: #00cfb0;
+  }

@@ -1,3 +1,21 @@
-*{
-    
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "cocogose";
+    color: #ffffff;
+  }
+
+  body {
+    background-color: #272727;
+  }
+
+  @font-face {
+    font-family: "cocogose";
+    src: url(../src/assets/img/Fuente-Cocogoose.ttf);
+  }
+  
+  @font-face {
+    font-family: "menlo";
+    src: url(../src/assets/img/Fuente-Menlo.ttf);
+  }
