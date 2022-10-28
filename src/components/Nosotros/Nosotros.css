@@ -1,13 +1,45 @@
 .section-aboutus {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    background-color: #272727;
+    /* background-color: #272727; */
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    /* justify-content: space-evenly; */
   }
-  
-  .section-aboutus .container-aboutus {
+  .acordion-aboutus{
+    width: 500px;
+  }
+  .acordion-aboutus .item{
+    background-color: #f2c628;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 1rem;
+  }
+  .title{
+    /* color: rgb(0, 0, 0); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  .title h2{
+    color: black;
+  }
+  .content{
+    color: #000000;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+  }
+  .content.show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+  }
+  /* .section-aboutus .container-aboutus {
     height: 349px;
     width: 349px;
     box-shadow: 5px -5px 15px rgba(76, 76, 79, 0.7), -5px 5px 20px #000000;
@@ -33,4 +65,4 @@
     line-height: 20px;
     color: rgba(255, 205, 5, 0.8);
     padding: 0 20px;
-  }
+  } */

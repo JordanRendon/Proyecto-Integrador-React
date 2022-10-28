@@ -30,7 +30,20 @@ const Inicio = () => {
 
                 </li>
 
-                <li id="new2"></li>
+                <li id="new2">
+                {/* <section className="text">
+                        <h1>&#60;&#60;SI SE PUEDE IMAGINAR, SE PUEDE PROGRAMAR&#62;&#62;</h1>
+                    </section>
+                    <section className="imagen-cover">
+                        <img src={cerebro} alt=""/>
+                    </section>
+                    <section className="numeral-cover">
+                        <img src={numeralAzul} alt=""/>
+                    </section>
+                    <section className="eslash-cover">
+                        <img src={eslashAmarillo} alt=""/>
+                    </section> */}
+                </li>
 
                 <li id="new3"></li>
 
