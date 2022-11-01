@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Proyecto-Integrador-React/static/css/main.f39ba710.css",
+    "main.js": "/Proyecto-Integrador-React/static/js/main.d4d0031c.js",
+    "static/media/cerebro.png": "/Proyecto-Integrador-React/static/media/cerebro.45ca7e76552242f3d3f1.png",
+    "static/media/Fuente-Menlo.ttf": "/Proyecto-Integrador-React/static/media/Fuente-Menlo.92e41f43900c256f2286.ttf",
+    "static/media/Fuente-Cocogoose.ttf": "/Proyecto-Integrador-React/static/media/Fuente-Cocogoose.fc4c5187ea318bde306b.ttf",
+    "static/media/Menu-lgotipo-marca.png": "/Proyecto-Integrador-React/static/media/Menu-lgotipo-marca.8b10050486d34b3dbfad.png",
+    "static/media/Eslash-felcha-amatillo.png": "/Proyecto-Integrador-React/static/media/Eslash-felcha-amatillo.70f6cb2b12d4b792c228.png",
+    "static/media/nuemeral-azul-claro.png": "/Proyecto-Integrador-React/static/media/nuemeral-azul-claro.ee065bc9623447a9373a.png",
+    "static/media/Menu-logotipo-perfil.png": "/Proyecto-Integrador-React/static/media/Menu-logotipo-perfil.7be89b5746a76bfd9e0f.png",
+    "index.html": "/Proyecto-Integrador-React/index.html",
+    "main.f39ba710.css.map": "/Proyecto-Integrador-React/static/css/main.f39ba710.css.map",
+    "main.d4d0031c.js.map": "/Proyecto-Integrador-React/static/js/main.d4d0031c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f39ba710.css",
+    "static/js/main.d4d0031c.js"
+  ]
+}
