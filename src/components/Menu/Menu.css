@@ -1,33 +1,24 @@
 header {
-    width: 100%;
-    height: 80px;
-    position: fixed;
-    z-index: 990;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
     /* background: linear-gradient(180deg, #272727 55.21%, rgba(39, 39, 39, 0) 88.02%); */
   }
 
 .container-menu {
-  height: 100%;
-  margin: auto;
   display: flex;
-  position: absolute;
-  width: 1268px;
-  height: 41px;
-  left: 25px;
-  top: 36px;
   }
 
   .menu {
     display: flex;
     align-items: center;
+    margin: 0 13rem;
   }
   .menu ul {
     display: flex;
-    position: absolute;
     width: 501px;
     height: 26px;
-    left: 627px;
-    top: 14px;
   }
   
   .menu ul li {
@@ -49,18 +40,8 @@ header {
   
   .logo-marca img {
     width: 140px;
-    position: absolute;
-    left: 4.97%;
-    right: 82.89%;
-    top: 12.2%;
-    bottom: 14.63%;
   }
   
   .logo-perfil img {
     width: 28px;
-    position: absolute;
-    left: 95.03%;
-    right: 2.6%;
-    top: 12.2%;
-    bottom: 14.63%;
   }
