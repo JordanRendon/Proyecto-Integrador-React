@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Proyecto-Integrador-React/static/css/main.e7ffd49b.css",
-    "main.js": "/Proyecto-Integrador-React/static/js/main.00965105.js",
+    "main.js": "/Proyecto-Integrador-React/static/js/main.e8fe6923.js",
     "static/media/cerebro.png": "/Proyecto-Integrador-React/static/media/cerebro.45ca7e76552242f3d3f1.png",
     "static/media/Fuente-Menlo.ttf": "/Proyecto-Integrador-React/static/media/Fuente-Menlo.92e41f43900c256f2286.ttf",
     "static/media/Cocogoose Pro Thin-trial.ttf": "/Proyecto-Integrador-React/static/media/Cocogoose Pro Thin-trial.6440e32616f290a797e9.ttf",
@@ -12,10 +12,10 @@
     "static/media/Menu-logotipo-perfil.png": "/Proyecto-Integrador-React/static/media/Menu-logotipo-perfil.7be89b5746a76bfd9e0f.png",
     "index.html": "/Proyecto-Integrador-React/index.html",
     "main.e7ffd49b.css.map": "/Proyecto-Integrador-React/static/css/main.e7ffd49b.css.map",
-    "main.00965105.js.map": "/Proyecto-Integrador-React/static/js/main.00965105.js.map"
+    "main.e8fe6923.js.map": "/Proyecto-Integrador-React/static/js/main.e8fe6923.js.map"
   },
   "entrypoints": [
     "static/css/main.e7ffd49b.css",
-    "static/js/main.00965105.js"
+    "static/js/main.e8fe6923.js"
   ]
 }
