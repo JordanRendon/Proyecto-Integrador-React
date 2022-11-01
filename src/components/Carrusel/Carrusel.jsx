@@ -8,7 +8,7 @@ const Carrusel = () => {
 
   const traerNoticias = async () => {
     const response = await fetch(
-      'https://crudcrud.com/api/2c8e5d9c99144c19b7fe4476fd98b432/news'
+      'https://crudcrud.com/api/1fc3ebfa6dfc4b5cbae9f501f6f0ca2e/news'
     )
     const data = await response.json()
     setNoticias(data)
