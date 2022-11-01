@@ -1,6 +1,5 @@
 .section-techniques {
     height: 100vh;
-    background-color: #272727;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;

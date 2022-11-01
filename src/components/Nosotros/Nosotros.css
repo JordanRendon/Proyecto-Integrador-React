@@ -8,7 +8,7 @@
     /* justify-content: space-evenly; */
   }
   .acordion-aboutus{
-    width: 500px;
+    width: 670px;
   }
   .acordion-aboutus .item{
     background-color: #f2c628;
@@ -38,6 +38,9 @@
     height: auto;
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(1,0,1,0);
+    font-family: 'cocogose-lit';
+    font-weight: bold;
+    line-height: 1.7;
   }
   /* .section-aboutus .container-aboutus {
     height: 349px;

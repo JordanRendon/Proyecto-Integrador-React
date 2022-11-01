@@ -19,3 +19,8 @@
     font-family: "menlo";
     src: url(../src/assets/img/Fuente-Menlo.ttf);
   }
+
+  @font-face {
+    font-family: "cocogose-lit";
+    src: url(../src/assets/fonts/Cocogoose\ Pro\ Thin-trial.ttf);
+  }
