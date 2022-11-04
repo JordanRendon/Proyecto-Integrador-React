@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useThemeContext } from '../context/ThemeContext'
 import './Nosotros.css'
 
 const data = [
@@ -16,6 +17,8 @@ const data = [
 },
 ]
 const Nosotros = () => {
+  const {contextTheme, setContextTheme} = useThemeContext()
+
     const [select, setSelect] = useState(null)
 
     const toggle = (i)=>{
@@ -25,9 +28,9 @@ const Nosotros = () => {
         setSelect(i)
     }
   return (
-    <section class="section-aboutus" id='nosotros'>
+    <section class="section-aboutus" id={contextTheme}>
 
-        <section class="acordion-aboutus">
+        <section class="acordion-aboutus" id='nosotros'>
             {data.map((item, i)=>(
                 <div className='item'>
                     <div className='title' onClick={()=>toggle(i)}>

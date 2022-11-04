@@ -7,9 +7,11 @@ import Carreras from "./components/Carreras/Carreras";
 import Nosotros from "./components/Nosotros/Nosotros";
 import Contacto from "./components/Contacto/Contacto";
 import Carrusel from "./components/Carrusel/Carrusel";
+import { ThemeContextProvier } from "./components/context/ThemeContext";
 
 function App() {
   return (
+    <ThemeContextProvier>
     <div>
     <Menu/>
     <Inicio/>
@@ -19,6 +21,7 @@ function App() {
     <Nosotros/>
     <Contacto/>
     </div>
+    </ThemeContextProvier>
   );
 }
 

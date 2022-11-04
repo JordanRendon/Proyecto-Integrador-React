@@ -3,11 +3,28 @@ header {
   display: flex;
   justify-content: space-around;
   height: 80px;
+  /* position: fixed; */
     /* background: linear-gradient(180deg, #272727 55.21%, rgba(39, 39, 39, 0) 88.02%); */
   }
+  #Dark .menu ul li a{
+    /* background-color: #272727; */
+    color: white !important;
+  }
+  #Light .menu ul li a{
+    /* background-color: white; */
+    color: #272727 !important;
+  }
 
+  #Light .logo-marca img{
+    color: black;
+    background-color: #272727;
+  }
 .container-menu {
   display: flex;
+  align-items: center;
+  position: fixed;
+  margin: 20px 0px 0px 0px;
+  z-index: 3;
   }
 
   .menu {
@@ -38,10 +55,16 @@ header {
     align-items: center;
   }
   
-  .logo-marca img {
+  .logo-marca-Dark{
+    background-image: url('../../assets/img/Menu-lgotipo-marca.png');
+  }
+  .logo-marca img{
     width: 140px;
+    border-radius: 14px;
+    padding: 9px;
   }
   
   .logo-perfil img {
     width: 28px;
   }
+ 

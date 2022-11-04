@@ -4,6 +4,7 @@ import 'react-slideshow-image/dist/styles.css'
 import './Carrusel.css'
 
 const Carrusel = () => {
+
   const [noticias, setNoticias] = useState([])
 
   const traerNoticias = async () => {
@@ -18,7 +19,7 @@ const Carrusel = () => {
   }, [])
 
   return (
-    <div className='container-carrusel'>
+    <div className='container-carrusel' >
       <Fade indicators={true}
       duration={3000}
       >

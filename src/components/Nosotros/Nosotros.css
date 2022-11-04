@@ -12,7 +12,7 @@
   }
   .acordion-aboutus .item{
     background-color: #f2c628;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     padding: 10px 20px;
     border: 1px solid;
     border-color: black;
@@ -38,7 +38,7 @@
     height: auto;
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(1,0,1,0);
-    font-family: 'cocogose-lit';
+    font-family: calibri;
     font-weight: bold;
     line-height: 1.7;
   }

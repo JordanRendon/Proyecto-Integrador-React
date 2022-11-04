@@ -3,12 +3,16 @@ import './Inicio.css'
 import cerebro from '../../assets/img/cerebro.png'
 import numeralAzul from '../../assets/img/nuemeral-azul-claro.png'
 import eslashAmarillo from '../../assets/img/Eslash-felcha-amatillo.png'
+import { useThemeContext } from '../context/ThemeContext'
 
 const Inicio = () => {
-  return (
-    <main className="section-cover" id='inicio'>
+  const {contextTheme, setContextTheme} = useThemeContext()
 
-        <section className="cover">
+  return (
+
+    <main className="section-cover" id={contextTheme}>
+
+        <section className="cover" id='inicio'>
 
             <ul className="slider">
 
@@ -37,6 +41,7 @@ const Inicio = () => {
         
 
     </main>
+    
   )
 }
 

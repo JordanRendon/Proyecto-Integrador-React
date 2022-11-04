@@ -1,51 +1,110 @@
 .section-contact {
-    height: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-contact .contact-net {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.contact-net .contact-circle {
+  display: flex;
+}
+
+.contact-circle .contact-linker {
+  height: 110px;
+  width: 110px;
+  background: #d9d9d9;
+  border-radius: 100%;
+  margin: 0 40px;
+}
+
+.contact-net .linker-email {
+  width: 458px;
+  height: 69px;
+  background: rgba(50, 50, 54, 0.01);
+  opacity: 0.56;
+  box-shadow: 5px -5px 20px rgba(76, 76, 79, 0.7), -5px 5px 20px #000000;
+  border-radius: 6px;
+  border-style: none;
+  margin: 70px 0;
+}
+
+.section-contact .contact-creators {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-creators h4 {
+  font-family: "menlo";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.Facebook-logo{
+  padding: 6px;
+  font-size: 108px;
+   color: white;
+   font-weight: bold;
+
+}
+
+#instagram{
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+#facebook{
+  background-color: #3b5998;
+}
+
+.Insta-logo{
+  padding: 6px;
+  font-size: 108px;
+  color: white;
+  font-weight: bold;
+  }
+
+  #son-bata{
+    background-color: #d0ea07;
+  }
+  .Pag-logo{
+    padding: 6px;
+  font-size: 108px;
+    color: black;
+    font-weight: bold;
+  }
+
+  #github{
+    background-color: red;
+  }
+
+  .Github{
+    padding: 6px;
+  font-size: 108px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .linker-email{
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
   }
-  
-  .section-contact .contact-net {
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: end;
+
+  .Contactanos{
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+    margin: 3px 0px 0px 0px;
   }
-  
-  .contact-net .contact-circle {
-    display: flex;
-  }
-  
-  .contact-circle .contact-linker {
-    height: 110px;
-    width: 110px;
-    background: #d9d9d9;
-    border-radius: 100%;
-    margin: 0 40px;
-  }
-  
-  .contact-net .linker-email {
-    width: 458px;
-    height: 69px;
-    background: rgba(50, 50, 54, 0.01);
-    opacity: 0.56;
-    box-shadow: 5px -5px 20px rgba(76, 76, 79, 0.7), -5px 5px 20px #000000;
-    border-radius: 6px;
-    border-style: none;
-    margin: 70px 0;
-  }
-  
-  .section-contact .contact-creators {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .contact-creators h4 {
-    font-family: "menlo";
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 30px;
-    text-align: center;
+  .linker-email h1{
+    margin: 20px 0px 0px 18px;
   }

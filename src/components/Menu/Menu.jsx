@@ -2,10 +2,20 @@ import React from 'react'
 import './Menu.css'
 import logoMenu from '../../assets/img/Menu-lgotipo-marca.png'
 import logoPerfil from '../../assets/img/Menu-logotipo-perfil.png'
+import { useThemeContext } from '../context/ThemeContext'
+import DarckMode from '../ModeDarck/ModeDark'
+import Login from '../Login/Login'
 
 const Menu = () => {
+  const {contextTheme, setContextTheme} = useThemeContext()
+//   const {logo, setLogo} = useStates('logo-Dark')
+
+//   const changeTheme =()=>{
+//     setLogo(theme === 'Dark' ? 'logo-Light':'logo-Dark')
+//   }
+
   return (
-    <header>
+    <header id={contextTheme}>
 
         <nav className='container-menu'>
 
@@ -24,10 +34,12 @@ const Menu = () => {
 
             </section>
             <section class="logo-perfil logos">
-                <a href="../login/index.html">
+                {/* <a href="../login/index.html">
                     <img src={logoPerfil} alt="logo-perfil"/>
-                </a>
+                </a> */}
+                <Login/>
             </section>
+            <DarckMode/>
         </nav>
 
     </header>

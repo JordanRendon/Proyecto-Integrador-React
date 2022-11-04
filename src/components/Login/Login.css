@@ -1,0 +1,80 @@
+* {
+  color: #ffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section-login {
+  height: 100vh;
+  background: #272727;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-login {
+  width: 746px;
+  height: 413px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(50px);
+  display: flex;
+}
+
+.container-login .image {
+  width: 373px;
+  height: 413px;
+  background: linear-gradient(180deg, #00cfb0 0%, #0057b2 100%);
+  border-radius: 24px;
+}
+
+.container-login .submit {
+  width: 373px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.submit .title {
+  font-size: 50px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.submit .subtitle {
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.submit .user {
+  height: 44px;
+  width: 250px;
+  border-radius: 4px;
+  text-align: inherit;
+  border-style: none;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: inset 5px -5px 20px rgba(76, 76, 79, 0.4),
+    inset -5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.submit input[type='text'] {
+  padding-left: 10px;
+}
+
+.submit .linker-page {
+  width: 175px;
+  height: 38px;
+  background: #d9d9d9;
+  border-radius: 4px;
+  border-style: none;
+}
+
+.btn-login {
+  display: flex;
+  background-color: green;
+  color: aqua;
+  border-radius: 8px;
+  cursor: pointer;
+}

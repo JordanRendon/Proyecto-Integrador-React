@@ -1,10 +1,13 @@
 import React from 'react'
+import { useThemeContext } from '../context/ThemeContext'
 import './Noticias.css'
 
 const Noticias = () => {
+  const {contextTheme, setContextTheme} = useThemeContext()
+
   return (
-    <main class="section-news" id='noticias'>
-        <nav class="container-news">
+    <main class="section-news" id={contextTheme}>
+        <nav class="container-news" id='noticias'>
             <section class="new1 style-news">
                 <p>recuadro1</p>
             </section>

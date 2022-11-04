@@ -1,26 +1,30 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "cocogose";
-    color: #ffffff;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'cocogose';
+  /* color: #ffffff; */
+}
+#Dark {
+  background-color: #272727;
+  color: white !important;
+}
+#Light {
+  background-color: white;
+  color: #1d1d1d !important;
+}
 
-  body {
-    background-color: #272727;
-  }
+@font-face {
+  font-family: 'cocogose';
+  src: url(../src/assets/img/Fuente-Cocogoose.ttf);
+}
 
-  @font-face {
-    font-family: "cocogose";
-    src: url(../src/assets/img/Fuente-Cocogoose.ttf);
-  }
-  
-  @font-face {
-    font-family: "menlo";
-    src: url(../src/assets/img/Fuente-Menlo.ttf);
-  }
+@font-face {
+  font-family: 'menlo';
+  src: url(../src/assets/img/Fuente-Menlo.ttf);
+}
 
-  @font-face {
-    font-family: "cocogose-lit";
-    src: url(../src/assets/fonts/Cocogoose\ Pro\ Thin-trial.ttf);
-  }
+@font-face {
+  font-family: 'cocogose-lit';
+  src: url(../src/assets/fonts/Cocogoose\ Pro\ Thin-trial.ttf);
+}
