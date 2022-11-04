@@ -108,3 +108,17 @@
   .linker-email h1{
     margin: 20px 0px 0px 18px;
   }
+
+  #Light .linker-email h1{
+    color: #000000;
+  }
+  #Light .linker-email a{
+    background-color: gray;
+    border-radius: 10px;
+    width: 60px 60px;
+    height: 60px ;
+    margin: 4px 0px 0px 0px;
+  }
+  #Light .contact-creators h4{
+    color: #000000;
+  }

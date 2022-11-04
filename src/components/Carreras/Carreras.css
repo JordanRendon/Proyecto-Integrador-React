@@ -47,4 +47,15 @@
   width: 100%;
   border-radius: 20px;
 }
+#Light .item-carrera h2 {
+  color: rgb(0, 0, 0);
+}
+
+#Light .item-carrera p {
+  color: rgb(0, 0, 0);
+}
+
+#Light .container-techniques h3 {
+  color: rgb(0, 0, 0);
+}
 
