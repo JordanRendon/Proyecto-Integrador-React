@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/Proyecto-Integrador-React/static/css/main.7e1fcab4.css",
-    "main.js": "/Proyecto-Integrador-React/static/js/main.a62b5e50.js",
+    "main.css": "/Proyecto-Integrador-React/static/css/main.0b65cc8b.css",
+    "main.js": "/Proyecto-Integrador-React/static/js/main.c1cf7702.js",
     "static/media/cerebro.png": "/Proyecto-Integrador-React/static/media/cerebro.45ca7e76552242f3d3f1.png",
     "static/media/Fuente-Menlo.ttf": "/Proyecto-Integrador-React/static/media/Fuente-Menlo.92e41f43900c256f2286.ttf",
-    "static/media/front.jpg": "/Proyecto-Integrador-React/static/media/front.5a12d726c7fec060bc39.jpg",
     "static/media/Cocogoose Pro Thin-trial.ttf": "/Proyecto-Integrador-React/static/media/Cocogoose Pro Thin-trial.6440e32616f290a797e9.ttf",
     "static/media/Fuente-Cocogoose.ttf": "/Proyecto-Integrador-React/static/media/Fuente-Cocogoose.fc4c5187ea318bde306b.ttf",
     "static/media/Menu-lgotipo-marca.png": "/Proyecto-Integrador-React/static/media/Menu-lgotipo-marca.8b10050486d34b3dbfad.png",
@@ -12,11 +11,11 @@
     "static/media/nuemeral-azul-claro.png": "/Proyecto-Integrador-React/static/media/nuemeral-azul-claro.ee065bc9623447a9373a.png",
     "static/media/Menu-logotipo-perfil.png": "/Proyecto-Integrador-React/static/media/Menu-logotipo-perfil.7be89b5746a76bfd9e0f.png",
     "index.html": "/Proyecto-Integrador-React/index.html",
-    "main.7e1fcab4.css.map": "/Proyecto-Integrador-React/static/css/main.7e1fcab4.css.map",
-    "main.a62b5e50.js.map": "/Proyecto-Integrador-React/static/js/main.a62b5e50.js.map"
+    "main.0b65cc8b.css.map": "/Proyecto-Integrador-React/static/css/main.0b65cc8b.css.map",
+    "main.c1cf7702.js.map": "/Proyecto-Integrador-React/static/js/main.c1cf7702.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e1fcab4.css",
-    "static/js/main.a62b5e50.js"
+    "static/css/main.0b65cc8b.css",
+    "static/js/main.c1cf7702.js"
   ]
 }
