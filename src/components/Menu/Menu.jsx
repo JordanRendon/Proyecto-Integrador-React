@@ -5,6 +5,8 @@ import logoPerfil from '../../assets/img/Menu-logotipo-perfil.png'
 import { useThemeContext } from '../context/ThemeContext'
 import DarckMode from '../ModeDarck/ModeDark'
 import Login from '../Login/Login'
+import { Link, Route, Routes } from 'react-router-dom'
+
 
 const Menu = () => {
   const {contextTheme, setContextTheme} = useThemeContext()
@@ -25,11 +27,21 @@ const Menu = () => {
             <section className="menu">
 
                 <ul>
-                    <li><a href="#inicio" id="selected">Inicio</a></li>
-                    <li><a href="#noticias">Noticias</a></li>
-                    <li><a href="#carreras">Carreras</a></li>
-                    <li><a href="#nosotros">Nosotros</a></li>
-                    <li><a href="#contactos">Contactos</a></li>
+                    <li>
+                   <Link to='/'>Inicio</Link>
+                    </li>
+                    <li>
+                        <Link to='/Noticias'>Noticias</Link>
+                    </li>
+                    <li>
+                        <Link to='/Carreras'>Carreras</Link>
+                    </li>
+                    <li>
+                        <Link to='/Nosotros'>Nosotros</Link>
+                    </li>
+                    <li>
+                        <Link to='/Contacto'>Contacto</Link>
+                    </li>
                 </ul>
 
             </section>
@@ -37,7 +49,12 @@ const Menu = () => {
                 {/* <a href="../login/index.html">
                     <img src={logoPerfil} alt="logo-perfil"/>
                 </a> */}
-                <Login/>
+
+                <li>
+                    <Link to='/Login'>Login</Link>
+                </li>
+
+
             </section>
             <DarckMode/>
         </nav>
