@@ -1,5 +1,6 @@
 import React from 'react'
 import './Inicio.css'
+import Carrusel from '../Carrusel/Carrusel'
 import cerebro from '../../assets/img/cerebro.png'
 import numeralAzul from '../../assets/img/nuemeral-azul-claro.png'
 import eslashAmarillo from '../../assets/img/Eslash-felcha-amatillo.png'
@@ -38,7 +39,7 @@ const Inicio = () => {
 
         </section>
 
-        
+       <Carrusel/>
 
     </main>
     
