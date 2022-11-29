@@ -27,25 +27,21 @@ const Carreras = () => {
   const { contextTheme, setContextTheme } = useThemeContext()
 
   return (
-    <main class="section-techniques"  id={contextTheme}>
-
-        <section class="container-techniques"  id={contextTheme}>
-            <h3 class="techniques-title">Nuestras carreras De Desarrollo web</h3>
-        </section>
-        <div className='container-carreras' >
-       
-            {data.map((carrera,index)=>(
-              <div key={index} className='item-carrera' >
-              <img src={carrera.url} alt="Imagen front" className='img-carrera'/>
-              <h2>{carrera.name}</h2>
-              <p>{carrera.description}</p>
-              <h2>{carrera.teacher}</h2>
-              </div>
-            ))}
+    <main class="section-techniques" id={contextTheme}>
+      <section class="container-techniques" id={contextTheme}>
+        <h3 class="techniques-title">Nuestras carreras De Desarrollo web</h3>
+      </section>
+      <div className="container-carreras" id={contextTheme}>
+        {data.map((carrera, index) => (
+          <div key={index} className="item-carrera">
+            <img src={carrera.url} alt="Imagen front" className="img-carrera" />
+            <h2>{carrera.name}</h2>
+            <p>{carrera.description}</p>
+            <h2>{carrera.teacher}</h2>
           </div>
-        
+        ))}
+      </div>
     </main>
-
   )
 }
 

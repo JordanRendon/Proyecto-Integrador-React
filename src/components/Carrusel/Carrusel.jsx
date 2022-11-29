@@ -2,31 +2,30 @@ import React, { useEffect, useState } from 'react'
 import { Fade } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
 import './Carrusel.css'
+import { useThemeContext } from '../context/ThemeContext'
 
-const Carrusel = () => {
-
+const Carrusel = () => { 
+  const { contextTheme, setContextTheme } = useThemeContext()
   const [noticias, setNoticias] = useState([])
 
   const traerNoticias = async () => {
-    const response = await fetch(
-      'https://crudcrud.com/api/1fc3ebfa6dfc4b5cbae9f501f6f0ca2e/news'
-    )
+    const response = await fetch('https://c13-app-back-sm.herokuapp.com/api/novelties')
+    console.log(response)
     const data = await response.json()
-    setNoticias(data)
+    console.log(data)
+    setNoticias(data.novelties)
   }
   useEffect(() => {
     traerNoticias()
   }, [])
 
   return (
-    <div className='container-carrusel' >
-      <Fade indicators={true}
-      duration={3000}
-      >
+    <div className="container-carrusel" id={contextTheme}>
+      <Fade indicators={true} duration={3000}>
         {noticias.map((noticia) => (
           <div className="each-slide">
             <div>
-              <img className="image" src={noticia.image} />
+              <img className="image" src={noticia.img} />
             </div>
             <p>{noticia.title}</p>
             <p>{noticia.description}</p>

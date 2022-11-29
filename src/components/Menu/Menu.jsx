@@ -1,7 +1,6 @@
 import React from 'react'
 import './Menu.css'
 import logoMenu from '../../assets/img/Menu-lgotipo-marca.png'
-import logoPerfil from '../../assets/img/Menu-logotipo-perfil.png'
 import { useThemeContext } from '../context/ThemeContext'
 import DarckMode from '../ModeDarck/ModeDark'
 import Login from '../Login/Login'
@@ -50,10 +49,10 @@ const Menu = () => {
                     <img src={logoPerfil} alt="logo-perfil"/>
                 </a> */}
 
-                <li>
+                {/* <li>
                     <Link to='/Login'>Login</Link>
-                </li>
-
+                </li> */}
+                <Login/>
 
             </section>
             <DarckMode/>

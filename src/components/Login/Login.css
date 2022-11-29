@@ -5,8 +5,9 @@
   box-sizing: border-box;
 }
 .section-login {
+  width: 100%;
   height: 100vh;
-  background: #272727;
+  background: #090909;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +57,7 @@
   border-style: none;
   background: rgba(255, 255, 255, 0.01);
   box-shadow: inset 5px -5px 20px rgba(76, 76, 79, 0.4),
-    inset -5px 5px 20px rgba(0, 0, 0, 0.5);
+    inset -5px 5px 20px rgba(3, 3, 3, 0.5);
 }
 
 .submit input[type='text'] {
@@ -73,8 +74,10 @@
 
 .btn-login {
   display: flex;
-  background-color: green;
-  color: aqua;
+  background-color: rgb(157, 164, 157);
+  color: rgb(9, 9, 9);
   border-radius: 8px;
   cursor: pointer;
+  margin: 0 50px 5px 0px;
+  padding: 5px;
 }

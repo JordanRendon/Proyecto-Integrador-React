@@ -26,11 +26,13 @@
   text-align: center;
   font-family: 'cocogose-lit';
   justify-content: center;
-  font-weight: bold;
+  font-weight: bolder;
   align-items: center;
   margin: 0;
-  background: #adceed;
+  background: #898989;
 }
 .container-carrusel {
   margin-top: 2rem;
+  /* background-color: #000; */
+  margin: 0 0 0 0px;
 }

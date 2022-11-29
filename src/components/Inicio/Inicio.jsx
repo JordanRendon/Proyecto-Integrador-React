@@ -39,7 +39,7 @@ const Inicio = () => {
 
         </section>
 
-       <Carrusel/>
+       <Carrusel />
 
     </main>
     
