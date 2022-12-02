@@ -10,6 +10,7 @@ import { ThemeContextProvier } from './components/context/ThemeContext'
 import { Routes, Route } from 'react-router-dom'
 import Login from './components/Login/Login'
 import Welcome from './components/Welcome/Welcome'
+import NotFound from './components/NotFound/NotFound'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/Carreras" element={<Carreras />} />
           <Route path="/Nosotros" element={<Nosotros />} />
           <Route path="/Contacto" element={<Contacto />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </ThemeContextProvier>
