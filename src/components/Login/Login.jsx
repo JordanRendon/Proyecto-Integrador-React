@@ -32,10 +32,10 @@ const Login = () => {
   
               <section class="submit">
                   <h2 class="title">Entrar</h2>
-                  <h3 class="subtitle">Te habiamos extrañado, por favor igresa a tu cuenta</h3>
+                  <h3 class="subtitle">Te habíamos extrañado, por favor igresa a tu cuenta</h3>
                   <input class="user" type="text" placeholder="Nombre de usuario">
                   <input class="user" type="text" placeholder="Contraseña">
-                  <button class="linker-page"><a href="#"></a></button>
+                  <button class="linker-page"><a href="#">Registrarce</a></button>
               </section>
           </section>
       </main>
