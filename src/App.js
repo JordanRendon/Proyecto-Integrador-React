@@ -9,6 +9,7 @@ import Contacto from './components/Contacto/Contacto'
 import { ThemeContextProvier } from './components/context/ThemeContext'
 import { Routes, Route } from 'react-router-dom'
 import Login from './components/Login/Login'
+import Welcome from './components/Welcome/Welcome'
 
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
         {/* <Nosotros /> */}
         {/* <Contacto /> */}
         <Routes>
-          <Route path="/" element={<Inicio />} />
+          <Route path="/" element={<Welcome />} />
+          <Route path="/Proyecto-Integrador-React" element={<Inicio />} />
+          <Route path="/Inicio" element={<Inicio />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Noticias" element={<Noticias />} />
           <Route path="/Carreras" element={<Carreras />} />
