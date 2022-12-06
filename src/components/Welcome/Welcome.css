@@ -1,0 +1,24 @@
+.contenedor {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  border-radius: 5px;
+}
+#Light .title h1 {
+  color: rgb(1, 1, 1);
+}
+/* #Dark .title h1 {
+  color: rgb(255, 242, 0);
+} */
+
+.gif {
+  width: 400px;
+}
