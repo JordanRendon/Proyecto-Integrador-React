@@ -9,7 +9,7 @@ const Carrusel = () => {
   const [noticias, setNoticias] = useState([])
 
   const traerNoticias = async () => {
-    const response = await fetch('https://c13-app-back-sm.herokuapp.com/api/novelties')
+    const response = await fetch('https://c13-app-back.up.railway.app/api/novelties')
     console.log(response)
     const data = await response.json()
     console.log(data)

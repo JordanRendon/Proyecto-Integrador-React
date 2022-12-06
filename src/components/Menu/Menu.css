@@ -3,7 +3,8 @@ header {
   display: flex;
   justify-content: space-around;
   height: 80px;
-  /* position: fixed; */
+  z-index: 5;
+  position: fixed;
     /* background: linear-gradient(180deg, #272727 55.21%, rgba(39, 39, 39, 0) 88.02%); */
   }
   #Dark .menu ul li a{

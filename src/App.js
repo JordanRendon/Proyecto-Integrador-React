@@ -11,23 +11,20 @@ import { Routes, Route } from 'react-router-dom'
 import Login from './components/Login/Login'
 import Welcome from './components/Welcome/Welcome'
 import NotFound from './components/NotFound/NotFound'
+import NewDetail from './components/NewsDetails/NewsDetail'
 
 function App() {
   return (
     <ThemeContextProvier>
       <div>
         <Menu />
-        {/* <Inicio /> */}
-        {/* <Noticias /> */}
-        {/* <Carreras /> */}
-        {/* <Nosotros /> */}
-        {/* <Contacto /> */}
         <Routes>
           <Route path="/" element={<Welcome />} />
           <Route path="/Proyecto-Integrador-React" element={<Inicio />} />
           <Route path="/Inicio" element={<Inicio />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Noticias" element={<Noticias />} />
+          <Route path='News/:id' element={<NewDetail/>} />
           <Route path="/Carreras" element={<Carreras />} />
           <Route path="/Nosotros" element={<Nosotros />} />
           <Route path="/Contacto" element={<Contacto />} />
