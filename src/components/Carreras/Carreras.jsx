@@ -1,30 +1,29 @@
 import React from 'react'
+import axios from 'axios'
+
 import { useThemeContext } from '../context/ThemeContext'
 import './Carreras.css'
+import { useState } from 'react'
+import { useEffect } from 'react'
 
-const data = [
-  {
-  url: 'https://res.cloudinary.com/dwuudheqw/image/upload/v1667579072/front_t54xhn.jpg',
-  name: 'Frontend',
-  description:'Html, Css,JavaScrip, Git, React',
-  teacher: 'Steven Zuluaga'
-},
-{
-  url: 'https://res.cloudinary.com/dwuudheqw/image/upload/v1667579415/backk1_dqyn9n.jpg',
-  name: 'Backend',
-  description:'Sql, JavaScrip, Git, Nodejs',
-  teacher: 'Sergio Manrique'
-},
-{
-  url: 'https://res.cloudinary.com/dwuudheqw/image/upload/v1667579371/backk_zsr08e.jpg',
-  name: 'FullStack',
-  description:'Html, Css,Sql,JavaScrip, Git, React, Nodejs',
-  teacher: 'Steven Zuluaga - Sergio Manrique'
-},
-]
+
 
 const Carreras = () => {
   const { contextTheme, setContextTheme } = useThemeContext()
+
+  const [carreras, setCarreras] = useState([])
+
+  const fetchCarreras = async () => {
+    const response = await axios.get(
+      'https://c13-app-back.up.railway.app/api/careers'
+    )
+    // const data = await response.json()
+    setCarreras(response.data.careers)
+  }
+
+  useEffect(() => {
+    fetchCarreras()
+  }, [])
 
   return (
     <main class="section-techniques" id={contextTheme}>
@@ -32,9 +31,9 @@ const Carreras = () => {
         <h3 class="techniques-title">Nuestras carreras De Desarrollo web</h3>
       </section>
       <div className="container-carreras" id={contextTheme}>
-        {data.map((carrera, index) => (
-          <div key={index} className="item-carrera">
-            <img src={carrera.url} alt="Imagen front" className="img-carrera" />
+        {carreras.map((carrera) => (
+          <div key={carrera.id} className="item-carrera">
+            <img src={carrera.img} alt="Imagen front" className="img-carrera" />
             <h2>{carrera.name}</h2>
             <p>{carrera.description}</p>
             <h2>{carrera.teacher}</h2>
