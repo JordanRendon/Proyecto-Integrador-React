@@ -6,6 +6,7 @@ import Noticias from './components/Noticias/Noticias'
 import Carreras from './components/Carreras/Carreras'
 import Nosotros from './components/Nosotros/Nosotros'
 import Contacto from './components/Contacto/Contacto'
+import Registro from './components/Registro/Registro'
 import { ThemeContextProvier } from './components/context/ThemeContext'
 import { Routes, Route } from 'react-router-dom'
 import Login from './components/Login/Login'
@@ -29,6 +30,7 @@ function App() {
           <Route path="/Nosotros" element={<Nosotros />} />
           <Route path="/Contacto" element={<Contacto />} />
           <Route path="*" element={<NotFound />} />
+          <Route path='/Registro' element={<Registro/>}/>
         </Routes>
       </div>
     </ThemeContextProvier>

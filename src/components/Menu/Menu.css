@@ -5,67 +5,78 @@ header {
   height: 80px;
   z-index: 5;
   position: fixed;
-    /* background: linear-gradient(180deg, #272727 55.21%, rgba(39, 39, 39, 0) 88.02%); */
-  }
-  #Dark .menu ul li a{
-    /* background-color: #272727; */
-    color: white !important;
-  }
-  #Light .menu ul li a{
-    /* background-color: white; */
-    color: #272727 !important;
-  }
+  /* background: linear-gradient(180deg, #272727 55.21%, rgba(39, 39, 39, 0) 88.02%); */
+}
+#Dark .menu ul li a {
+  /* background-color: #272727; */
+  color: white !important;
+}
+#Light .menu ul li a {
+  /* background-color: white; */
+  color: #272727 !important;
+}
 
-  #Light .logo-marca img{
-    color: black;
-    background-color: #272727;
-  }
+#Light .logo-marca img {
+  color: black;
+  background-color: #272727;
+}
 .container-menu {
   display: flex;
   align-items: center;
   position: fixed;
   margin: 20px 0px 0px 0px;
   z-index: 3;
-  }
+}
 
-  .menu {
-    display: flex;
-    align-items: center;
-    margin: 0 13rem;
-  }
-  .menu ul {
-    display: flex;
-    width: 501px;
-    height: 26px;
-  }
-  
-  .menu ul li {
-    list-style: none;
-    margin-left: 32px;
-  }
-  
-  .menu ul li a {
-    text-decoration: none;
-    font-size: 12px;
-    text-transform: uppercase;
-  }
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 0 13rem;
+}
+.menu ul {
+  display: flex;
+  width: 501px;
+  height: 26px;
+}
 
-  .logos {
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo-marca-Dark{
-    background-image: url('../../assets/img/Menu-lgotipo-marca.png');
-  }
-  .logo-marca img{
-    width: 140px;
-    border-radius: 14px;
-    padding: 9px;
-  }
-  
-  .logo-perfil img {
-    width: 28px;
-  }
- 
+.menu ul li {
+  list-style: none;
+  margin-left: 32px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.logos {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo-marca-Dark {
+  background-image: url('../../assets/img/Menu-lgotipo-marca.png');
+}
+.logo-marca img {
+  width: 140px;
+  border-radius: 14px;
+  padding: 9px;
+}
+
+.logo-perfil img {
+  width: 28px;
+}
+.item-regi {
+  display: flex;
+  background-color: rgb(157, 164, 157);
+  color: rgb(9, 9, 9);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 5px;
+  text-decoration: none;
+  border: 2px solid black;
+  margin: -4px 45px 0px -40px;
+  height: 32px;
+}

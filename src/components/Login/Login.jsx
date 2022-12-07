@@ -35,7 +35,6 @@ const Login = () => {
                   <h3 class="subtitle">Te habíamos extrañado, por favor igresa a tu cuenta</h3>
                   <input class="user" type="text" placeholder="Nombre de usuario">
                   <input class="user" type="text" placeholder="Contraseña">
-                  <button class="linker-page"><a href="#">Registrarce</a></button>
               </section>
           </section>
       </main>

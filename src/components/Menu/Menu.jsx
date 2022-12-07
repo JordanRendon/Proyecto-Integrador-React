@@ -53,6 +53,7 @@ const Menu = () => {
                     <Link to='/Login'>Login</Link>
                 </li> */}
                 <Login/>
+                <Link to='/Registro' className='item-regi'>Registarse</Link>
 
             </section>
             <DarckMode/>

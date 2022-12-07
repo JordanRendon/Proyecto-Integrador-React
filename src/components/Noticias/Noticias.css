@@ -9,13 +9,15 @@
   flex-direction: column;
   justify-content: center;
   border: 2px solid gray;
-  border-radius: 5px;
+  border-radius: 25px;
   padding: 7px;
   width: 30%;
   margin: 10px;
   align-items: center;
   gap: 6px;
   margin-top: 140px;
+  box-shadow: 5px -5px 15px rgba(76, 76, 79, 0.7), -5px 5px 20px #000000;
+
 }
 .linker-news {
   text-align: center;

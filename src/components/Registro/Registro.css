@@ -1,0 +1,40 @@
+.container-form {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.table-form {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 105%;
+    gap: 20px;
+    position: absolute;
+    top: 135px;
+    border: 0.5px solid black;
+    background-color: rgb(86, 86, 86);
+    padding: 2px;
+}
+
+.item-registro{
+ text-align: center;
+ color: black;
+ margin-top: -20px;
+}
+input{
+    text-align: center;
+    width: 70%;
+    color: black;
+    height: 30px;
+}
+.btn-enviar{
+    padding: 5px;
+    width: 20%;
+    border-radius: 5px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
