@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Proyecto-Integrador-React/static/css/main.af6711cf.css",
-    "main.js": "/Proyecto-Integrador-React/static/js/main.ff2fe4f5.js",
+    "main.css": "/Proyecto-Integrador-React/static/css/main.9abc6842.css",
+    "main.js": "/Proyecto-Integrador-React/static/js/main.924aebab.js",
     "static/media/cerebro.png": "/Proyecto-Integrador-React/static/media/cerebro.45ca7e76552242f3d3f1.png",
     "static/media/Fuente-Menlo.ttf": "/Proyecto-Integrador-React/static/media/Fuente-Menlo.92e41f43900c256f2286.ttf",
     "static/media/Cocogoose Pro Thin-trial.ttf": "/Proyecto-Integrador-React/static/media/Cocogoose Pro Thin-trial.6440e32616f290a797e9.ttf",
@@ -12,11 +12,11 @@
     "static/media/gif.gif": "/Proyecto-Integrador-React/static/media/gif.a8e793348f3d13865093.gif",
     "static/media/nuemeral-azul-claro.png": "/Proyecto-Integrador-React/static/media/nuemeral-azul-claro.ee065bc9623447a9373a.png",
     "index.html": "/Proyecto-Integrador-React/index.html",
-    "main.af6711cf.css.map": "/Proyecto-Integrador-React/static/css/main.af6711cf.css.map",
-    "main.ff2fe4f5.js.map": "/Proyecto-Integrador-React/static/js/main.ff2fe4f5.js.map"
+    "main.9abc6842.css.map": "/Proyecto-Integrador-React/static/css/main.9abc6842.css.map",
+    "main.924aebab.js.map": "/Proyecto-Integrador-React/static/js/main.924aebab.js.map"
   },
   "entrypoints": [
-    "static/css/main.af6711cf.css",
-    "static/js/main.ff2fe4f5.js"
+    "static/css/main.9abc6842.css",
+    "static/js/main.924aebab.js"
   ]
 }
